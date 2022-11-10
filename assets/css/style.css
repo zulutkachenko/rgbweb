@@ -1,0 +1,121 @@
+.cards_wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+	font-family: 'Gotham Pro';
+	margin: 100px auto;
+}
+
+.card_content {
+	padding: 24px;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.card_content-link {
+	text-decoration: none;
+}
+
+.card_content-img img {
+	width: 100%;
+}
+
+.card_content-description {
+	display: flex;
+	margin-top: 20px;
+}
+
+.card_info {
+	flex: 0 1 75%;
+}
+
+.card_logo {
+	flex: 0 1 25%;
+	text-align: end;
+	margin-top: 6px;
+}
+
+.card_logo img {
+	width: 58px;
+	height: 58px;
+}
+
+.card_info-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #2F2F34;
+}
+
+.card_info-desc {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.4;
+	color: #2F2F34;
+	opacity: 0.8;
+}
+
+/* Modal */
+.btn-close {
+	margin: 14px 24px 8px auto;
+}
+
+.modal-cart {
+	display: flex;
+    padding: 0 40px 40px;
+}
+
+.modal-thumb {
+	flex: 0 1 60%;
+}
+
+.modal_thumb-head img {
+	width: 100%;
+    height: auto;
+}
+
+.modal_thumb-bottom {
+	display: flex;
+    margin: 20px -7px 0;
+}
+
+.modal_thumb-bottom img {
+	padding: 0 7px;
+    border-radius: 4px;
+}
+
+.modal-info {
+	flex: 0 1 40%;
+    padding: 0 40px;
+}
+
+.modal-title {
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 1.22;
+	color: #2F2F34;
+}
+
+.modal_title-word {
+	color: #44c16b;
+}
+
+.modal-title-desc {
+	font-family: 'Gotham Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2F2F34;
+    opacity: 0.8;
+    margin: 23px auto 28px;
+}
+
+.modal_list-item  {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.4;
+	color: #2F2F34;
+	opacity: 0.8;
+	margin: 12px 0;
+	list-style-image: url('/assets/images/Rectangle list.svg');
+}
